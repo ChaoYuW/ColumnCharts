@@ -8,27 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		E56E7E3F2648C7A900A7B502 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E56E7E3E2648C7A900A7B502 /* AppDelegate.m */; };
-		E56E7E422648C7A900A7B502 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E56E7E412648C7A900A7B502 /* SceneDelegate.m */; };
-		E56E7E452648C7A900A7B502 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56E7E442648C7A900A7B502 /* ViewController.m */; };
 		E56E7E482648C7A900A7B502 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56E7E462648C7A900A7B502 /* Main.storyboard */; };
 		E56E7E4A2648C7AB00A7B502 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E56E7E492648C7AB00A7B502 /* Assets.xcassets */; };
 		E56E7E4D2648C7AB00A7B502 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56E7E4B2648C7AB00A7B502 /* LaunchScreen.storyboard */; };
 		E56E7E502648C7AB00A7B502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E56E7E4F2648C7AB00A7B502 /* main.m */; };
+		E56E7E582648C7EA00A7B502 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56E7E562648C7EA00A7B502 /* ViewController.m */; };
+		E56E7E602648C80600A7B502 /* NavBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = E56E7E592648C80600A7B502 /* NavBarView.m */; };
+		E56E7E612648C80600A7B502 /* LineChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56E7E5C2648C80600A7B502 /* LineChartViewController.m */; };
+		E56E7E622648C80600A7B502 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = E56E7E5E2648C80600A7B502 /* UIColor+Extensions.m */; };
+		E56E7E632648C80600A7B502 /* NavBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E56E7E5F2648C80600A7B502 /* NavBarView.xib */; };
+		E56E7E682648C90B00A7B502 /* LIneToolObj.m in Sources */ = {isa = PBXBuildFile; fileRef = E56E7E662648C90B00A7B502 /* LIneToolObj.m */; };
+		E56E7E692648C90B00A7B502 /* HistoryChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E56E7E672648C90B00A7B502 /* HistoryChart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E56E7E3A2648C7A900A7B502 /* ColumnCharts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColumnCharts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E56E7E3D2648C7A900A7B502 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E56E7E3E2648C7A900A7B502 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E56E7E402648C7A900A7B502 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		E56E7E412648C7A900A7B502 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		E56E7E432648C7A900A7B502 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E56E7E442648C7A900A7B502 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E56E7E472648C7A900A7B502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E56E7E492648C7AB00A7B502 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E56E7E4C2648C7AB00A7B502 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E56E7E4E2648C7AB00A7B502 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E56E7E4F2648C7AB00A7B502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E56E7E562648C7EA00A7B502 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E56E7E572648C7EA00A7B502 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E56E7E592648C80600A7B502 /* NavBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavBarView.m; sourceTree = "<group>"; };
+		E56E7E5A2648C80600A7B502 /* UIColor+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extensions.h"; sourceTree = "<group>"; };
+		E56E7E5B2648C80600A7B502 /* LineChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineChartViewController.h; sourceTree = "<group>"; };
+		E56E7E5C2648C80600A7B502 /* LineChartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineChartViewController.m; sourceTree = "<group>"; };
+		E56E7E5D2648C80600A7B502 /* NavBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavBarView.h; sourceTree = "<group>"; };
+		E56E7E5E2648C80600A7B502 /* UIColor+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extensions.m"; sourceTree = "<group>"; };
+		E56E7E5F2648C80600A7B502 /* NavBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavBarView.xib; sourceTree = "<group>"; };
+		E56E7E642648C90A00A7B502 /* LIneToolObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LIneToolObj.h; sourceTree = "<group>"; };
+		E56E7E652648C90B00A7B502 /* HistoryChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryChart.h; sourceTree = "<group>"; };
+		E56E7E662648C90B00A7B502 /* LIneToolObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LIneToolObj.m; sourceTree = "<group>"; };
+		E56E7E672648C90B00A7B502 /* HistoryChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryChart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +77,19 @@
 			children = (
 				E56E7E3D2648C7A900A7B502 /* AppDelegate.h */,
 				E56E7E3E2648C7A900A7B502 /* AppDelegate.m */,
-				E56E7E402648C7A900A7B502 /* SceneDelegate.h */,
-				E56E7E412648C7A900A7B502 /* SceneDelegate.m */,
-				E56E7E432648C7A900A7B502 /* ViewController.h */,
-				E56E7E442648C7A900A7B502 /* ViewController.m */,
+				E56E7E572648C7EA00A7B502 /* ViewController.h */,
+				E56E7E562648C7EA00A7B502 /* ViewController.m */,
+				E56E7E5B2648C80600A7B502 /* LineChartViewController.h */,
+				E56E7E5C2648C80600A7B502 /* LineChartViewController.m */,
+				E56E7E652648C90B00A7B502 /* HistoryChart.h */,
+				E56E7E672648C90B00A7B502 /* HistoryChart.m */,
+				E56E7E642648C90A00A7B502 /* LIneToolObj.h */,
+				E56E7E662648C90B00A7B502 /* LIneToolObj.m */,
+				E56E7E5D2648C80600A7B502 /* NavBarView.h */,
+				E56E7E592648C80600A7B502 /* NavBarView.m */,
+				E56E7E5F2648C80600A7B502 /* NavBarView.xib */,
+				E56E7E5A2648C80600A7B502 /* UIColor+Extensions.h */,
+				E56E7E5E2648C80600A7B502 /* UIColor+Extensions.m */,
 				E56E7E462648C7A900A7B502 /* Main.storyboard */,
 				E56E7E492648C7AB00A7B502 /* Assets.xcassets */,
 				E56E7E4B2648C7AB00A7B502 /* LaunchScreen.storyboard */,
@@ -132,6 +155,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E56E7E632648C80600A7B502 /* NavBarView.xib in Resources */,
 				E56E7E4D2648C7AB00A7B502 /* LaunchScreen.storyboard in Resources */,
 				E56E7E4A2648C7AB00A7B502 /* Assets.xcassets in Resources */,
 				E56E7E482648C7A900A7B502 /* Main.storyboard in Resources */,
@@ -145,10 +169,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E56E7E452648C7A900A7B502 /* ViewController.m in Sources */,
+				E56E7E602648C80600A7B502 /* NavBarView.m in Sources */,
+				E56E7E582648C7EA00A7B502 /* ViewController.m in Sources */,
+				E56E7E682648C90B00A7B502 /* LIneToolObj.m in Sources */,
+				E56E7E612648C80600A7B502 /* LineChartViewController.m in Sources */,
 				E56E7E3F2648C7A900A7B502 /* AppDelegate.m in Sources */,
+				E56E7E692648C90B00A7B502 /* HistoryChart.m in Sources */,
 				E56E7E502648C7AB00A7B502 /* main.m in Sources */,
-				E56E7E422648C7A900A7B502 /* SceneDelegate.m in Sources */,
+				E56E7E622648C80600A7B502 /* UIColor+Extensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DSWQW3YJVV;
 				INFOPLIST_FILE = ColumnCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DSWQW3YJVV;
 				INFOPLIST_FILE = ColumnCharts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
